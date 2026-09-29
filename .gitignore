@@ -1,0 +1,22 @@
+# Secrets and data — never commit
+.env
+data/
+
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+
+# Notebooks are throwaway experiments (README rule); keep the folder, drop the noise
+.ipynb_checkpoints/
+notebooks/*.ipynb
+logs/
+
+docs/
+tests/
+CLAUDE.md
+PROGRESS.md
+docker-compose.yml

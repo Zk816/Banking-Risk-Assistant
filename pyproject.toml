@@ -1,0 +1,53 @@
+[project]
+name = "kzbank"
+version = "0.1.0"
+description = "Cited, numbers-first AI assistant for Kazakhstan's financial sector"
+requires-python = ">=3.12,<3.13"
+
+dependencies = [
+    # Postgres. Raw SQL, no ORM — the point is to see the queries.
+    "psycopg[binary]>=3.2",
+    "pgvector>=0.3",
+    # One validated settings object, loaded from .env. The only place env vars are read.
+    "pydantic-settings>=2.6",
+    # bge-m3 embeddings. Model is already in ~/.cache/huggingface, nothing to download.
+    "sentence-transformers>=3.3",
+    # Talks to any OpenAI-compatible server. Ours is the local ollama on :11435.
+    "openai>=1.57",
+    # One HTTP call, to the National Bank rates feed. Always with a timeout.
+    "httpx>=0.28",
+    # HTTP service. uvicorn is the server, fastapi the routing and validation.
+    "fastapi>=0.115",
+    "uvicorn[standard]>=0.32",
+    # Parsing legal acts saved from the Adilet web UI.
+    "beautifulsoup4>=4.12",
+    "lxml>=5.3",
+    "networkx>=3.6.1",
+    "matplotlib>=3.11.2",
+    "pandas>=3.0.6",
+    "openpyxl>=3.1.5",
+    "xlrd>=2.0.2",
+    "pypdf>=6.19.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.3"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/kzbank"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.3.0",
+    "jupyter>=1.1.1",
+    "nbconvert>=7.17.1",
+    "nbformat>=5.11.1",
+]
