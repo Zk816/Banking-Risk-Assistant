@@ -1,0 +1,42 @@
+{
+  "n_test": 750,
+  "n_unanswerable": 145,
+  "models": {
+    "qwen3_8b_base": {
+      "untraceable_rate": 0.009333333333333334,
+      "invalid_cite_rate": 0.0,
+      "no_cite_rate": 0.0049586776859504135,
+      "gold_cite_rate": 0.7917355371900826,
+      "refusal_recall": 0.4689655172413793,
+      "false_refusal_rate": 0.0049586776859504135,
+      "correct_rate": 0.7603305785123967,
+      "correct_or_partial_rate": 0.8446280991735537,
+      "guard_pass_rate": 0.8853333333333333,
+      "mean_answer_chars": 212.764
+    },
+    "qwen3_8b_qlora": {
+      "untraceable_rate": 0.005333333333333333,
+      "invalid_cite_rate": 0.0,
+      "no_cite_rate": 0.0,
+      "gold_cite_rate": 0.9140495867768595,
+      "refusal_recall": 0.8206896551724138,
+      "false_refusal_rate": 0.019834710743801654,
+      "correct_rate": 0.8545454545454545,
+      "correct_or_partial_rate": 0.8826446280991735,
+      "guard_pass_rate": 0.9453333333333334,
+      "mean_answer_chars": 253.70666666666668
+    },
+    "teacher_qwen3.8_27b": {
+      "untraceable_rate": 0.014666666666666666,
+      "invalid_cite_rate": 0.0,
+      "no_cite_rate": 0.001652892561983471,
+      "gold_cite_rate": 0.947107438016529,
+      "refusal_recall": 0.7793103448275862,
+      "false_refusal_rate": 0.003305785123966942,
+      "correct_rate": 0.9041322314049587,
+      "correct_or_partial_rate": 0.915702479338843,
+      "guard_pass_rate": 0.94,
+      "mean_answer_chars": 275.528
+    }
+  }
+}

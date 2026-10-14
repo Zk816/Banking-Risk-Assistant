@@ -1,0 +1,32 @@
+#theme-toggle { display: none !important; }
+
+.kz-settings {
+  padding: 12px 12px 14px;
+  border-top: 1px solid hsl(var(--sidebar-border));
+  user-select: none; -webkit-user-select: none;
+}
+.kz-settings__label {
+  font-size: 11px; font-weight: 600; letter-spacing: .06em; text-transform: uppercase;
+  color: hsl(var(--muted-foreground)); margin: 0 2px 8px;
+}
+.kz-seg {
+  display: grid; grid-template-columns: repeat(3, 1fr); gap: 2px; padding: 3px;
+  border-radius: 10px; background: hsl(var(--sidebar-background));
+  border: 1px solid hsl(var(--border));
+}
+.kz-seg button {
+  display: flex; align-items: center; justify-content: center; gap: 5px; padding: 0 4px;
+  height: 30px; border: 0; border-radius: 7px; cursor: pointer;
+  font: inherit; font-size: 12px; color: hsl(var(--muted-foreground)); white-space: nowrap;
+  background: transparent; transition: background .15s, color .15s;
+}
+.kz-seg button svg { width: 14px; height: 14px; flex: none; }
+.kz-seg button:hover { color: hsl(var(--foreground)); }
+.kz-seg button[aria-pressed="true"] {
+  background: hsl(var(--card)); color: hsl(var(--primary));
+  box-shadow: 0 1px 3px rgb(0 0 0 / .35), inset 0 0 0 1px hsl(var(--border));
+}
+.kz-seg button:focus-visible { outline: 2px solid hsl(var(--ring)); outline-offset: 1px; }
+
+html.dark img[src*="/logo?"] { content: url("/public/logo_dark.png?v=4"); }
+html:not(.dark) img[src*="/logo?"] { content: url("/public/logo_light.png?v=4"); }

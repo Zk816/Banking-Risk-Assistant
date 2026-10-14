@@ -1,0 +1,29 @@
+{
+  "_comment": "Quality floor; eval/gate.py fails below it. Re-recorded 2026-09-24 on the real corpus: 15 161 chunks from 70 NBK resolutions plus one synthetic law. NOTE: the golden set still asks about the synthetic law, so these numbers measure 'can retrieval find my fake article among 15k real ones'. The three remaining misses are paraphrase questions where real acts legitimately compete. The golden set needs rewriting against the real corpus.",
+  "recorded_on": "2026-09-24",
+  "corpus": {
+    "documents": 73,
+    "chunks": 15161,
+    "metrics_rows": 96,
+    "deduplicated": "4116 byte-identical chunks removed (21.4%)"
+  },
+  "retrieval": {
+    "vector only": {
+      "recall_1": 0.7368,
+      "mrr": 0.7632
+    },
+    "hybrid (RRF)": {
+      "recall_1": 0.6316,
+      "mrr": 0.7237
+    },
+    "hybrid + rerank": {
+      "recall_1": 0.7895,
+      "mrr": 0.807
+    }
+  },
+  "routing": {
+    "correct": 12,
+    "total": 12
+  },
+  "tolerance": 0.02
+}

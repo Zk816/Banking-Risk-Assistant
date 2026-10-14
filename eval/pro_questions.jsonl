@@ -1,0 +1,50 @@
+{"id": "m-kaspi-npl", "cat": "metric", "q": "Какая доля неработающих кредитов (NPL 90+) у Kaspi Bank?", "source": "bank_statistics", "expect": ["6,82", "6.82", "6,8"]}
+{"id": "m-halyk-npl", "cat": "metric", "q": "NPL 90+ Халык банка на последнюю дату?", "source": "bank_statistics", "expect": ["4,70", "4.70", "4,7"]}
+{"id": "m-bcc-npl", "cat": "metric", "q": "Какая просрочка свыше 90 дней у Банка ЦентрКредит?", "source": "bank_statistics", "expect": ["1,68", "1.68", "1,7"]}
+{"id": "m-kaspi-k2", "cat": "metric", "q": "Какой коэффициент достаточности капитала k2 у Kaspi?", "source": "bank_statistics", "expect": ["14,3", "14.3"]}
+{"id": "m-forte-k2", "cat": "metric", "q": "k2 ForteBank?", "source": "bank_statistics", "expect": ["23,1", "23.1"]}
+{"id": "m-otbasy-k2", "cat": "metric", "q": "Достаточность собственного капитала Отбасы банка", "source": "bank_statistics", "expect": ["29,6", "29.6"]}
+{"id": "m-halyk-assets", "cat": "metric", "q": "Какие активы у Halyk Bank?", "source": "bank_statistics", "expect": ["21,47", "21.47", "21,5", "21 466"]}
+{"id": "m-kaspi-deposits", "cat": "metric", "q": "Сколько депозитов у Kaspi Bank?", "source": "bank_statistics", "expect": ["8,73", "8.73", "8,7", "8 725"]}
+{"id": "m-kaspi-nim", "cat": "metric", "q": "Какая чистая процентная маржа у Kaspi?", "source": "bank_statistics", "expect": ["9,21", "9.21", "9,2"]}
+{"id": "m-homecredit-nim", "cat": "metric", "q": "Процентная маржа Home Credit Bank", "source": "bank_statistics", "expect": ["14,94", "14.94", "14,9"]}
+{"id": "m-halyk-profit", "cat": "metric", "q": "Какая чистая прибыль у Народного банка с начала года?", "source": "bank_statistics", "expect": ["539", "539,1"]}
+{"id": "m-kaspi-provisions", "cat": "metric", "q": "Сколько провизий сформировал Kaspi Bank?", "source": "bank_statistics", "expect": ["411", "411,4"]}
+{"id": "m-kaspi-k4", "cat": "metric", "q": "Коэффициент текущей ликвидности k4 у Kaspi?", "source": "bank_statistics", "expect": ["2,10", "2.10", "2,1"]}
+{"id": "m-freedom-npl", "cat": "metric", "q": "Какой уровень проблемных кредитов у Фридом Банка?", "source": "bank_statistics", "expect": ["2,90", "2.90", "2,9"]}
+{"id": "m-nurbank-npl", "cat": "metric", "q": "Какой NPL у Нурбанка?", "source": "bank_statistics", "expect": ["4,94", "4.94", "4,9"]}
+{"id": "c-assets-kaspi-halyk", "cat": "compare", "q": "Сравни активы Kaspi и Halyk", "source": "bank_statistics", "all": [["21,47", "21.47", "21,5"], ["10,54", "10.54", "10,5"]]}
+{"id": "c-npl-kaspi-halyk-bcc", "cat": "compare", "q": "Сравни долю NPL 90+ у Kaspi, Halyk и Банка ЦентрКредит", "source": "bank_statistics", "all": [["6,82", "6.82", "6,8"], ["4,70", "4.70", "4,7"], ["1,68", "1.68", "1,7"]]}
+{"id": "c-k2-forte-bereke", "cat": "compare", "q": "У кого выше достаточность капитала: ForteBank или Bereke Bank?", "source": "bank_statistics", "all": [["23,1", "23.1"], ["14,3", "14.3"]]}
+{"id": "c-nim-kaspi-halyk", "cat": "compare", "q": "Сравни процентную маржу Kaspi и Halyk", "source": "bank_statistics", "all": [["9,21", "9.21", "9,2"], ["6,84", "6.84", "6,8"]]}
+{"id": "r-top-npl", "cat": "rank", "q": "У каких банков самая высокая доля проблемных кредитов?", "source": "bank_statistics", "all": [["ВТБ", "VTB"], ["Home Credit", "Хоум Кредит"]]}
+{"id": "r-low-k2", "cat": "rank", "q": "У каких банков самый низкий коэффициент k2?", "source": "bank_statistics", "all": [["Kaspi", "Каспи"], ["Bereke"]]}
+{"id": "r-top-assets", "cat": "rank", "q": "Крупнейшие банки Казахстана по активам", "source": "bank_statistics", "all": [["Halyk", "Народный"], ["Kaspi", "Каспи"], ["ЦентрКредит", "CenterCredit", "BCC"]]}
+{"id": "r-top-nim", "cat": "rank", "q": "У каких банков самая высокая процентная маржа?", "source": "bank_statistics", "all": [["Home Credit", "Хоум Кредит"]]}
+{"id": "t-kaspi-npl-trend", "cat": "trend", "q": "Как изменилась доля NPL у Kaspi за год?", "source": "bank_statistics", "all": [["6,82", "6.82", "6,8"], ["5,32", "5.32", "5,3"]]}
+{"id": "t-worsening", "cat": "trend", "q": "У каких банков качество кредитов ухудшается?", "source": "bank_statistics", "all": [["Kaspi", "Каспи"], ["Home Credit", "Хоум Кредит"]]}
+{"id": "t-sector-npl", "cat": "trend", "q": "Как менялась доля проблемных кредитов в банковском секторе за последние 10 лет?", "source": "bank_statistics", "expect": ["%"]}
+{"id": "g-halyk-fitch", "cat": "rating", "q": "Какой рейтинг у Halyk от Fitch?", "source": "bank_ratings", "expect": ["BBB-"]}
+{"id": "g-halyk-moodys", "cat": "rating", "q": "Рейтинг Народного банка от Moody's?", "source": "bank_ratings", "expect": ["Baa1"]}
+{"id": "g-kaspi-moodys", "cat": "rating", "q": "Какой кредитный рейтинг у Kaspi Bank по Moody's?", "source": "bank_ratings", "expect": ["Baa3"]}
+{"id": "g-kaspi-all", "cat": "rating", "q": "Какие рейтинги у Kaspi Bank?", "source": "bank_ratings", "all": [["BBB-"], ["Baa3"]]}
+{"id": "d-halyk-auditor", "cat": "document", "q": "Кто аудитор Halyk Bank за 2024 год?", "source": "company_reports", "expect": ["Делойт", "Deloitte"]}
+{"id": "d-deposit-guarantee", "cat": "document", "q": "Какая максимальная сумма гарантийного возмещения по сберегательным депозитам в тенге?", "source": "laws", "expect": ["20 000 000", "двадцати миллионов", "20 млн", "20 миллионов"]}
+{"id": "d-license-revocation", "cat": "document", "q": "По каким основаниям у банка могут отозвать лицензию?", "source": "laws", "expect": ["Статья 48", "статьи 48", "статье 48"]}
+{"id": "d-conglomerate-deadline", "cat": "document", "q": "В какой срок банковский конгломерат сдает отчет о выполнении пруденциальных нормативов?", "source": "nbk_regulations", "all": [["70"], ["31 мая", "31 (тридцать первого) мая"]]}
+{"id": "d-lcr", "cat": "document", "q": "Как рассчитывается коэффициент покрытия ликвидности LCR по Базелю?", "source": "basel_standards", "all": [["100"], ["30"]]}
+{"id": "d-npe", "cat": "document", "q": "Что считается неработающей экспозицией (non-performing exposure) по Базельскому комитету?", "source": "basel_standards", "expect": ["90"]}
+{"id": "d-ifrs9", "cat": "document", "q": "Как Базельский комитет предлагает учитывать резервы по МСФО 9 в капитале?", "source": "basel_standards", "expect": ["МСФО 9", "IFRS 9", "ожидаемых кредитных убытков", "expected credit loss"]}
+{"id": "d-consumer-measures", "cat": "document", "q": "Какие меры принимал регулятор для ограничения рисков потребительского кредитования?", "source": "stability_reports", "expect": ["50"]}
+{"id": "d-fsap", "cat": "document", "q": "Что писал Всемирный банк в оценке финансового сектора Казахстана (FSAP)?", "source": "worldbank_reports", "expect": ["FSAP", "финансового сектора", "financial sector"]}
+{"id": "d-deposit-market", "cat": "document", "q": "Какие тенденции на рынке депозитов физических лиц?", "source": "deposit_market", "expect": ["депозит"]}
+{"id": "x-base-rate", "cat": "macro", "q": "Какая сейчас базовая ставка Нацбанка?", "source": "base_rate", "expect": ["16,25", "16.25"]}
+{"id": "x-usd-date", "cat": "macro", "q": "Какой был курс доллара 29 сентября 2026?", "source": "exchange_rates", "expect": ["441,77", "441.77"]}
+{"id": "x-peers-npl", "cat": "macro", "q": "Как доля NPL в Казахстане выглядит по сравнению с соседними странами?", "source": "country_indicators", "all": [["3,6", "3.6"], ["10,1", "10.1", "10,06"]]}
+{"id": "x-inflation", "cat": "macro", "q": "Какая была инфляция в Казахстане в 2025 году по данным Всемирного банка?", "source": "country_indicators", "expect": ["11,4", "11.4", "11,39"]}
+{"id": "x-why-arrears", "cat": "macro", "q": "Почему растет просроченная задолженность по потребительским кредитам?", "source": "stability_reports", "expect": ["потребительск"]}
+{"id": "n-borscht", "cat": "refuse", "q": "Рецепт борща", "refuse": true}
+{"id": "n-weather", "cat": "refuse", "q": "Какая погода завтра в Алматы?", "refuse": true}
+{"id": "n-fake-bank", "cat": "refuse", "q": "Какой NPL у банка Ромашка?", "refuse": true}
+{"id": "n-future", "cat": "refuse", "q": "Какая будет доля NPL у Kaspi в декабре 2027 года?", "refuse": true}
+{"id": "n-stock-tip", "cat": "refuse", "q": "Акции какого банка купить, чтобы заработать?", "refuse": true}

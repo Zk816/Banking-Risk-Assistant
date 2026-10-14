@@ -1,0 +1,22 @@
+{"id": "cap-direct", "q": "Какой минимальный размер уставного капитала банка?", "article": "Статья 16", "value": "10000000000", "kind": "direct"}
+{"id": "cap-para", "q": "Сколько денег нужно чтобы открыть банк в Казахстане?", "article": "Статья 16", "value": "10000000000", "kind": "paraphrase"}
+{"id": "cap-currency", "q": "В какой валюте формируется уставный капитал банка?", "article": "Статья 16", "value": null, "kind": "direct"}
+{"id": "k1-value", "q": "Какое минимальное значение коэффициента k1?", "article": "Статья 43", "value": "0,055", "kind": "exact-token"}
+{"id": "k12-value", "q": "Какое минимальное значение коэффициента k1-2?", "article": "Статья 43", "value": "0,065", "kind": "exact-token"}
+{"id": "k2-value", "q": "Какое минимальное значение коэффициента k2?", "article": "Статья 43", "value": "0,080", "kind": "exact-token"}
+{"id": "k2-para", "q": "Какая достаточность собственного капитала требуется от банка?", "article": "Статья 43", "value": "0,080", "kind": "paraphrase"}
+{"id": "ratio-freq", "q": "Как часто рассчитываются коэффициенты достаточности капитала?", "article": "Статья 43", "value": null, "kind": "direct"}
+{"id": "prudential-list", "q": "Какие бывают пруденциальные нормативы?", "article": "Статья 42", "value": null, "kind": "direct"}
+{"id": "npl-days", "q": "Через сколько дней просрочки заём признаётся неработающим?", "article": "Статья 44", "value": null, "kind": "direct"}
+{"id": "npl-limit", "q": "Какая предельная доля неработающих займов в портфеле?", "article": "Статья 44", "value": null, "kind": "direct"}
+{"id": "npl-para", "q": "Что такое NPL и как часто его раскрывают?", "article": "Статья 44", "value": null, "kind": "paraphrase"}
+{"id": "supervision", "q": "Что делает регулятор при нарушении нормативов?", "article": "Статья 45", "value": null, "kind": "paraphrase"}
+{"id": "founders", "q": "Кто может быть учредителем банка?", "article": "Статья 17", "value": null, "kind": "direct"}
+{"id": "founders-docs", "q": "Какую отчётность представляет юридическое лицо — учредитель банка?", "article": "Статья 17", "value": null, "kind": "direct"}
+{"id": "report-deadline", "q": "До какого числа банк публикует годовую отчётность?", "article": "Статья 54", "value": null, "kind": "direct"}
+{"id": "report-standard", "q": "По каким стандартам банк составляет финансовую отчётность?", "article": "Статья 54", "value": null, "kind": "direct"}
+{"id": "definition-bank", "q": "Что такое банк второго уровня?", "article": "Статья 1", "value": null, "kind": "direct"}
+{"id": "legislation", "q": "На чём основывается банковское законодательство Казахстана?", "article": "Статья 2", "value": null, "kind": "direct"}
+{"id": "absent-vat", "q": "Какая ставка НДС в Казахстане?", "article": null, "value": null, "kind": "absent"}
+{"id": "absent-insurance", "q": "Какой минимальный уставный капитал страховой компании?", "article": null, "value": null, "kind": "absent-adjacent"}
+{"id": "absent-crypto", "q": "Как банки регулируют операции с криптовалютой?", "article": null, "value": null, "kind": "absent"}

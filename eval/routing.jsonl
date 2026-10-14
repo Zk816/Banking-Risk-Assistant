@@ -1,0 +1,12 @@
+{"id": "fx-usd",      "q": "Какой курс доллара?",                                  "tool": "get_exchange_rate"}
+{"id": "fx-eur-date", "q": "Курс евро на 23 сентября 2026?",                       "tool": "get_exchange_rate"}
+{"id": "fx-rub",      "q": "Сколько тенге за один рубль?",                         "tool": "get_exchange_rate"}
+{"id": "fx-amd",      "q": "Курс армянского драма",                                "tool": "get_exchange_rate"}
+{"id": "fx-vague",    "q": "Почём сейчас доллар в Казахстане?",                    "tool": "get_exchange_rate"}
+{"id": "law-k2",      "q": "Какое минимальное значение коэффициента k2?",          "tool": "search_legal_text"}
+{"id": "law-npl",     "q": "Что такое неработающий заём?",                         "tool": "search_legal_text"}
+{"id": "law-capital", "q": "Какой минимальный уставный капитал банка?",            "tool": "search_legal_text"}
+{"id": "law-founder", "q": "Кто может быть учредителем банка?",                    "tool": "search_legal_text"}
+{"id": "law-report",  "q": "До какого числа банк публикует годовую отчётность?",   "tool": "search_legal_text"}
+{"id": "law-vague",   "q": "Какие требования регулятор предъявляет к капиталу?",   "tool": "search_legal_text"}
+{"id": "law-trap",    "q": "Какие пруденциальные нормативы установлены для банков?", "tool": "search_legal_text"}

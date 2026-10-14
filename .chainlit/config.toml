@@ -1,0 +1,84 @@
+[project]
+user_env = []
+
+session_timeout = 3600
+
+user_session_timeout = 1296000
+
+cache = false
+
+persist_user_env = false
+
+mask_user_env = false
+
+allow_origins = ["*"]
+
+[features]
+unsafe_allow_html = false
+
+latex = false
+
+user_message_markdown = true
+
+user_message_autoscroll = true
+
+assistant_message_autoscroll = true
+
+auto_tag_thread = true
+
+edit_message = true
+
+allow_thread_sharing = false
+
+favorites = false
+
+[features.slack]
+reaction_on_message_received = false
+
+[features.spontaneous_file_upload]
+    enabled = true
+    accept = { "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" = [".xlsx"], "application/vnd.ms-excel" = [".xls"] }
+    max_files = 1
+    max_size_mb = 10
+
+[features.audio]
+    enabled = false
+    sample_rate = 24000
+
+[features.mcp]
+    enabled = false
+
+    [features.mcp.user_servers]
+        enabled = false
+        allowed_urls = []
+
+[UI]
+name = "Fiscalis"
+
+confirm_new_chat = true
+
+description = "Fiscalis: risk answers from Kazakhstan's banking data, with sources"
+
+cot = "full"
+
+custom_css = "/public/custom.css?v=4"
+
+custom_js = "/public/sidebar_settings.js?v=4"
+
+alert_style = "classic"
+
+login_page_image = "/public/login.png"
+
+login_page_image_filter = "brightness-100"
+login_page_image_dark_filter = "brightness-100"
+
+custom_meta_url = "https://github.com/Zk816/Banking-Risk-Assistant"
+
+custom_meta_image_url = "/public/login.png"
+
+logo_file_url = ""
+
+default_avatar_file_url = ""
+
+[meta]
+generated_by = "2.12.0"

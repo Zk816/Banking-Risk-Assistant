@@ -1,0 +1,19 @@
+{"id": "fx-usd",       "q": "Какой курс доллара?",                                  "expect": "447,85",        "path": "metrics"}
+{"id": "fx-eur",       "q": "Какой курс евро?",                                     "expect": "513,46",        "path": "metrics"}
+{"id": "fx-rub",       "q": "Сколько тенге за один рубль?",                         "expect": "5,31",          "path": "metrics"}
+{"id": "fx-cny",       "q": "Курс китайского юаня?",                                "expect": "66,86",         "path": "metrics"}
+{"id": "fx-amd",       "q": "Курс армянского драма?",                               "expect": "1,241",         "path": "metrics"}
+{"id": "fx-krw",       "q": "Курс южнокорейской воны?",                             "expect": "0,3304",        "path": "metrics"}
+{"id": "fx-absent",    "q": "Курс доллара на 1 января 2020 года?",                  "expect": null,            "path": "metrics"}
+{"id": "fx-nosuch",    "q": "Курс зимбабвийского доллара?",                         "expect": null,            "path": "metrics"}
+{"id": "law-k1",       "q": "Какое минимальное значение коэффициента k1?",          "expect": "0,055",         "path": "text"}
+{"id": "law-k12",      "q": "Какое минимальное значение коэффициента k1-2?",        "expect": "0,065",         "path": "text"}
+{"id": "law-k2",       "q": "Какое минимальное значение коэффициента k2?",          "expect": "0,080",         "path": "text"}
+{"id": "law-capital",  "q": "Какой минимальный уставный капитал банка?",            "expect": "10000000000",   "path": "text"}
+{"id": "law-npl-days", "q": "Через сколько дней просрочки заём признаётся неработающим?", "expect": null,      "path": "text"}
+{"id": "law-npl-lim",  "q": "Какая предельная доля неработающих займов?",           "expect": "10",            "path": "text"}
+{"id": "law-founders", "q": "Кто может быть учредителем банка?",                    "expect": null,            "path": "text"}
+{"id": "law-report",   "q": "По каким стандартам банк составляет отчётность?",      "expect": null,            "path": "text"}
+{"id": "absent-vat",   "q": "Какая ставка НДС в Казахстане?",                       "expect": null,            "path": "refuse"}
+{"id": "absent-ins",   "q": "Какой минимальный уставный капитал страховой компании?", "expect": null,          "path": "refuse"}
+{"id": "absent-crypto","q": "Как банки регулируют операции с криптовалютой?",        "expect": null,            "path": "refuse"}

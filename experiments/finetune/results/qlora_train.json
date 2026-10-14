@@ -1,0 +1,19 @@
+{
+  "base": "Qwen/Qwen3-8B",
+  "train_examples": 4640,
+  "dev_examples": 241,
+  "dropped_too_long": 51,
+  "lora": {
+    "r": 16,
+    "alpha": 32,
+    "targets": "all attention + MLP projections"
+  },
+  "quant": "nf4 4-bit",
+  "epochs": 2,
+  "minutes": 93.7,
+  "eval_loss": [
+    0.1500692367553711,
+    0.15326625108718872
+  ],
+  "train_loss_last": 0.0826329231262207
+}

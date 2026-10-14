@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Official exchange rates of National Bank of Republic Kazakhstan</title>
+        <item><title>USD</title><pubDate>23.09.2026</pubDate><description>447.85</description><quant>1</quant></item>
+        <item><title>AMD</title><pubDate>23.09.2026</pubDate><description>12.41</description><quant>10</quant></item>
+        <item><title>KRW</title><pubDate>23.09.2026</pubDate><description>33.04</description><quant>100</quant></item>
+        <item><title>IRR</title><pubDate>23.09.2026</pubDate><description>3.26</description><quant>10000</quant></item>
+        <item><title>BAD</title><pubDate>23.09.2026</pubDate><description>not-a-number</description><quant>1</quant></item>
+        <item><title>ZERO</title><pubDate>23.09.2026</pubDate><description>0</description><quant>1</quant></item>
+        <item><title>EURO</title><pubDate>23.09.2026</pubDate><description>513.46</description><quant>1</quant></item>
+    </channel>
+</rss>

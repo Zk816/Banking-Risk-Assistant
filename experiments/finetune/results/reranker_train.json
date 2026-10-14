@@ -1,0 +1,25 @@
+{
+  "train_groups": 5008,
+  "dev_groups": 263,
+  "epochs": 2,
+  "lr": 0.0002,
+  "lora": {
+    "r": 32,
+    "alpha": 64
+  },
+  "history": [
+    {
+      "epoch": 0,
+      "dev_mrr": 1.0
+    },
+    {
+      "epoch": 1,
+      "dev_mrr": 0.9980988593155894
+    },
+    {
+      "epoch": 2,
+      "dev_mrr": 0.9980988593155894
+    }
+  ],
+  "minutes": 10.5
+}

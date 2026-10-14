@@ -1,0 +1,32 @@
+{"id": "h-bcc-k2", "cat": "metric", "q": "What is Bank CenterCredit's capital adequacy ratio k2?", "expect": ["18,70", "18.70", "18,7", "18.7"]}
+{"id": "h-eurasian-npl", "cat": "metric", "q": "Доля просроченных более 90 дней кредитов у Евразийского банка", "expect": ["3,74", "3.74"]}
+{"id": "h-otbasy-assets", "cat": "metric", "q": "Сколько активов у Отбасы банка?", "expect": ["6,07", "6.07"]}
+{"id": "h-halyk-dep-ind", "cat": "metric", "q": "Сколько вкладов физических лиц у Халык банка?", "expect": ["8,13", "8.13"]}
+{"id": "h-hc-coverage", "cat": "metric", "q": "Насколько NPL покрыты провизиями у Home Credit Bank?", "expect": ["68,49", "68.49", "68,5"]}
+{"id": "h-bereke-k1", "cat": "metric", "q": "k1 у Bereke Bank", "expect": ["14,30", "14.30", "14,3"]}
+{"id": "h-forte-ltd", "cat": "metric", "q": "Loans to deposits ratio of ForteBank?", "expect": ["0,76", "0.76"]}
+{"id": "h-kaspi-ni", "cat": "metric", "q": "Сколько заработал Каспи банк чистой прибыли в этом году?", "expect": ["268"]}
+{"id": "h-cmp-dep", "cat": "compare", "q": "Кто крупнее по депозитам — Банк ЦентрКредит или ForteBank?", "all": [["6,78", "6.78"], ["3,88", "3.88"]]}
+{"id": "h-cmp-nim", "cat": "compare", "q": "Compare the net interest margin of Home Credit Bank and Kaspi Bank", "all": [["14,94", "14.94"], ["9,21", "9.21"]]}
+{"id": "h-rank-ni", "cat": "rank", "q": "Топ-3 банка по чистой прибыли", "all": [["Halyk", "Народный"], ["Kaspi", "Каспи"], ["ЦентрКредит", "CenterCredit"]]}
+{"id": "h-rank-k2", "cat": "rank", "q": "У какого банка самая высокая достаточность капитала k2?", "expect": ["Shinhan", "Шинхан"]}
+{"id": "h-halyk-assets-hist", "cat": "trend", "q": "Как менялись активы Halyk за последние 3 года?", "all": [["14,94", "14.94"], ["17,94", "17.94"], ["20,27", "20.27"]]}
+{"id": "h-halyk-npl-12m", "cat": "trend", "q": "Выросла ли доля NPL у Halyk за год и насколько?", "all": [["2,04", "2.04"], ["4,70", "4.70"]]}
+{"id": "h-sector-2023", "cat": "trend", "q": "Какой была доля NPL по банковскому сектору на конец 2023 года?", "expect": ["2,89", "2.89"]}
+{"id": "h-forte-fitch", "cat": "rating", "q": "ForteBank rating from Fitch?", "expect": ["BB"]}
+{"id": "h-otbasy-ratings", "cat": "rating", "q": "Какие кредитные рейтинги у Отбасы банка?", "all": [["BBB"], ["Baa1"]]}
+{"id": "h-forte-auditor", "cat": "document", "q": "Кто проводил аудит ForteBank за 2024 год?", "expect": ["KPMG", "КПМГ"]}
+{"id": "h-bcc-auditor", "cat": "document", "q": "Аудитор Банка ЦентрКредит по отчетности за 2024 год", "expect": ["KPMG", "КПМГ"]}
+{"id": "h-nsfr", "cat": "document", "q": "Что такое NSFR и какой у него минимум по Базелю III?", "expect": ["100"]}
+{"id": "h-bank-secrecy", "cat": "document", "q": "Что относится к банковской тайне по закону?", "expect": ["Статья 50", "статьи 50", "статье 50", "ст. 50"]}
+{"id": "h-deposit-guarantee-en", "cat": "document", "q": "What is the maximum deposit guarantee for savings deposits in tenge in Kazakhstan?", "expect": ["20 000 000", "20,000,000", "twenty million", "20 million", "двадцати миллионов", "20 млн"]}
+{"id": "h-inflation-2024", "cat": "macro", "q": "Инфляция в Казахстане в 2024 году", "expect": ["8,69", "8.69", "8,7"]}
+{"id": "h-gdp-2025", "cat": "macro", "q": "Рост ВВП Казахстана в 2025 году", "expect": ["6,5", "6.5"]}
+{"id": "h-npl-uzb", "cat": "macro", "q": "Сравни долю NPL в Казахстане и Узбекистане в 2024 году", "all": [["3,05", "3.05"], ["3,89", "3.89"]]}
+{"id": "h-base-jan", "cat": "macro", "q": "Какая базовая ставка действовала на 1 января 2026 года?", "expect": ["18"]}
+{"id": "h-eur-0915", "cat": "macro", "q": "Курс евро на 15 сентября 2026", "expect": ["516,76", "516.76"]}
+{"id": "h-n-future", "cat": "refuse", "q": "Какой будет NPL у Halyk в 2030 году?", "refuse": true}
+{"id": "h-n-advice", "cat": "refuse", "q": "Should I put my savings in Kaspi Bank?", "refuse": true}
+{"id": "h-n-plov", "cat": "refuse", "q": "Как приготовить плов?", "refuse": true}
+{"id": "h-n-fakebank", "cat": "refuse", "q": "Какой рейтинг у банка Альфа-Центр Инвест?", "refuse": true}
+{"id": "h-n-fakemetric", "cat": "refuse", "q": "Какой индекс счастья клиентов у Kaspi?", "refuse": true}
